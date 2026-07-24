@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+
+class Book {
+    String title;
+    int price;
+    Book(String title, int price) {
+        this.title = title;
+        this.price = price;
+    }
+    Book(Book b) {
+        this.title = b.title;
+        this.price = b.price;
+    }
+    void displayDetails() {
+        System.out.println("Book Title: " + title);
+        System.out.println("Book Price: " + price);
+    }
+}
+
+public class Book1 {
+    public static void main(String[] args) {
+       // Scanner sc = new Scanner(System.in);
+        //String title = sc.nextLine();
+        //int price = sc.nextInt();
+        Book b1 = new Book("Java programing", 450);
+        Book b2 = new Book(b1);
+        b2.displayDetails();
+    }
+}
