@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Demo1 {
+
+    Demo1() {
+        System.out.println("Default Constructor Called");
+    }
+    Demo1(int value) {
+       // this();
+        // super()
+        System.out.println("Parameterized Constructor Called");
+        this();
+        System.out.println("Value: " + value);
+    }
+}
+
+public class Demo {
+    public static void main(String[] args) {
+       // Scanner sc = new Scanner(System.in);
+       // int val = sc.nextInt();
+        Demo1 d = new Demo1(3);
+    }
+}
+
