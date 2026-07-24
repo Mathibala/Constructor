@@ -1,0 +1,15 @@
+public class Rectangle {
+    int length;
+    int breath;
+public static void main(){
+    Rectangle rec=new Rectangle(5,4);
+    
+}
+    Rectangle(int length,int breath){
+    int rect=length*breath;
+    System.out.println(rect);
+      this.length=length;
+      this.breath=breath;
+    }
+
+}
