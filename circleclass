@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class Circle1 {
+    double radius;
+    Circle1(double r) {
+        radius = r;
+        double area = 3.14 * radius * radius;
+        System.out.println("Area: " + area);
+    }
+}
+
+public class Circle {
+    public static void main(String[] args) {
+      //  Scanner sc = new Scanner(System.in);
+       // double r = sc.nextDouble();
+        Circle1 c = new Circle1(5);
+    }
+}
+
