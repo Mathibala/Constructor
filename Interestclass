@@ -1,0 +1,26 @@
+import java.util.*;
+
+class Interest1 {
+    double principal, rate, time;
+
+    // Constructor to initialize values and calculate simple interest
+    Interest1(double p, double r, double t) {
+        principal = p;
+        rate = r;
+        time = t;
+
+        double si = (principal * rate * time) / 100;
+        System.out.println("Simple Interest: " + si);
+    }
+}
+
+public class Interest{
+    public static void main(String[] args) {
+       // Scanner sc = new Scanner(System.in);
+       // double p = sc.nextDouble();
+      //  double r = sc.nextDouble();
+        //double t = sc.nextDouble();
+        Interest1 i = new Interest1(10000, 5, 2);
+    }
+}
+
